@@ -1,0 +1,22 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.article{
+    background-color: #fff;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(254, 0, 8, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.article header{
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+}

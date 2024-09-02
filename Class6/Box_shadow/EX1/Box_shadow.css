@@ -1,0 +1,11 @@
+.profile{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 119, 193, 0.2); 
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.profile:hover{
+    box-shadow: 0 8px 16px rgba(0, 225, 255, 0.4);
+}

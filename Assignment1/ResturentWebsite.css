@@ -1,0 +1,246 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+}
+
+header {
+    
+    display: flex;
+    align-items: center;
+    padding-top: 1.5%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.Logo {
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+ .Logo img {
+    height: 40px; 
+    margin-right: 5px;
+}
+
+.Links {
+    
+    justify-content: center;
+    font-size : 25px;
+}
+
+.Links nav {
+    display: flex;
+    gap: 70px; 
+}
+
+.Links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.Links a img {
+    margin-left: 5px;
+    height: 15px; 
+}
+
+ .buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    font-size: 25px;
+    margin-left: 3%;
+    background-color: #39DB4A;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-style: Serif; 
+    color :  white
+}
+
+/* wlecome section */
+
+.welcome {
+    width: 1417px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+  
+    margin: 0 auto 200px auto;
+}
+.welcome_text{
+    width: 650px;
+}
+.welcome_text h1{
+    font-size: 62px;
+    margin-bottom: 70px;
+    line-height: 99.22px;
+}
+.welcome_text h1 span {
+    color: green;
+}
+.welcome_text p{
+    font: initial;
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 70px;
+}
+.welcome_buttons{
+    font-size: 26px;
+    margin-bottom: 85px;
+}
+.welcome_buttons a {
+    text-decoration: none;
+    row-gap : 7px;
+}
+.welcome_buttons a:nth-child(1){
+    background-color: #39DB4A;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-style: Serif; 
+    color :  white;
+    padding: 25px 50px;
+}
+.welcome_buttons a:nth-child(2){
+    margin: 0 35px;
+    font-weight: 500;
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
+.welcome_buttons a:nth-child(2) img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+/* images */
+.images div{
+    width: 350px;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.301);
+    gap: 30px;
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+.images section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.images article h3 {
+    color: #2C2C2C;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  /* main */
+main{
+    width: 1417px;
+  margin: 0 auto;
+}
+  .main-text{
+    width: 100%;
+    margin-bottom: 200px;
+  }
+  .main-text section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+  }
+  .main-text p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .main-text h3{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .main-text div{
+    width: 300px;
+    height: 320px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  /* dishes section */
+
+
+  .dishes{
+    width: 1417px;
+    margin: 0 auto 200px auto;
+  }
+  .dishes-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+    
+  }
+  .catagory-cards{
+    width: 445px;
+    height: 525px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px;
+  }
+  .catagory-cards p i img{
+    font-size: 70px;
+    position: absolute;
+    border-radius: 0 40px;
+    background-color: #39DB4A;
+    margin-left: 345px;
+    margin-top:10px;
+    padding: 20px;
+  }
+  .catagory-cards img{
+    margin: 0 auto;
+  }
+  .catagory-cards h3{
+    font-size: 30px;
+  }
+  .catagory-cards h5{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .Price{
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+  }
+  .Price h5{
+    margin:30px;
+  }
+
+
+
+

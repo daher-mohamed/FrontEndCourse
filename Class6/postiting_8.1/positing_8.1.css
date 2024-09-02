@@ -1,0 +1,16 @@
+.outer {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    margin: 50px;
+}
+
+.inner {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    position: relative;
+    top: 10px;
+}
+/* the problem was in the define of the position of inner when we wrote it absolute it was absolute to the page and to fix it we have to write a relative to the father */
+    

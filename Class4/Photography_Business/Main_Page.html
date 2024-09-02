@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> photography business</title>
+    <style>
+        body {
+            align-items: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 10px 0px #ccc;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around; 
+            align-items: flex-start; 
+            margin-top: 20px;
+        }
+    
+        .item {
+            text-align: center;
+            flex: 1; 
+            margin: 0 10px;
+        }
+    
+        .item img {
+            width: 100%; 
+            height: auto;
+            border-radius: 10px; 
+        }
+    
+        .item h3 {
+            margin: 10px 0; 
+        }
+    
+        .item a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            color: rgb(2, 2, 2);
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header id="Hedaer">
+
+        <h1>photography business</h1>
+        <p>There is a lot of photo that our photographer take it around the world </p>
+        <nav class="navclass">
+            <a href="Main_Page.html">Main</a>
+            <a href="Photo1.html" >Photo1</a>
+            <a href="Photo2.html" >Photo2</a>
+            <a href="Photo3.html" >Photo3</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixcmQsARbTtwpySN--xqSmWg_p2yTCYv80A&s" width="30%" height="30%" />
+                <h3>Nature Image</h3>
+                <a href="Photo1.html">More Info</a>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbUkNmeJ95PcpVaiLs74ujKij8nM65dsMOBw&s" width="30%" height="30%" />
+                <h3>Alaska</h3>
+                <a href="Photo2.html">More Info</a>
+            </div>
+            <div class="item">
+                <img src="https://cdn.britannica.com/30/180130-138-4FC01CDD/Overview-Amsterdam.jpg?w=800&h=450&c=crop" width="30%" height="30%" />
+                <h3>Amsterdam</h3>
+                <a href="Photo3.html">More Info</a>
+            </div>
+        </div>
+    </section>
+    <section>
+      <h2>Testimonials</h2> 
+       <div class="container">
+            <div class="item">
+                <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" width="30%" height="30%" />
+                <h3>Alex jonh</h3>
+                <p>Amzing service! The photos were stunning and captured all the special moments perfectly</p>
+            </div>
+            <div class="item">
+                <img src="https://st2.depositphotos.com/2931363/6569/i/450/depositphotos_65699901-stock-photo-black-man-keeping-arms-crossed.jpg" width="30%" height="30%" />
+                <h3>John Doe</h3>
+                <p>The team was professional and made everyone feel comfortable. Highly recommend</p>
+            </div>
+            <div class="item">
+                <img src="https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg" width="30%" height="30%" />
+                <h3>Maya Leo</h3>
+                <p>The best photography experience I've ever had. The pictures turned out beautiful</p>
+            </div>
+
+       </div>
+    </section>
+    <section id="contact">
+        <form action="#" method="post">
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" name="name" required minlength="8" placeholder="Inter You'r Name here">
+            </fieldset>
+            <fieldset>
+                <label for="Phone">telephone</label>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Your Phone Number" required>
+            </fieldset>
+            <fieldset>
+                <label for="budget">Budget:</label>
+                <input type="number"  name="budget" min="100" max="10000">
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section>
+        <footer>
+            <p>Photography by Daher Altlalka | Contact: daher@gamil.com | Phone: 0548029222</p>
+            <p><a href="#Hedaer" style="color: #000000;">Back to Top</a></p>
+        </footer>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+.body {
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.body nav {
+    background-color: #ff6347; 
+    padding: 10px 0;
+}
+
+.body nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.body nav ul li {
+    margin: 0 20px;
+}
+
+.body nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.body nav ul li a:hover {
+    background-color: #e5533d; 
+    border-radius: 4px;
+}
+.body header {
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(2, 2, 2);
+    width: 100%;
+}

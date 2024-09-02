@@ -1,0 +1,134 @@
+body{
+    background-color: #4c18d1;
+}
+main{
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    gap: 20px;
+}
+/* Flat */
+.Flat {
+    text-align: center;
+    margin: 0 auto;
+}
+.Flat div {
+    text-align: center;
+}
+.Flat section {
+    text-align: center;
+    display: flex;
+    gap: 80px;
+}
+.Flat section button:nth-child(1) {
+    background-color: rgb(0, 102, 255);
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    color: azure; 
+    display: inline-block;
+}
+.Flat section button:nth-child(2) {
+    background-color: rgb(255, 162, 0);
+    height: 30px;
+    text-align: center;
+    justify-content: center;  
+    color: azure; 
+    display: inline-block;
+}
+/* Round */
+.Round {
+    text-align: center;
+    margin: 0 auto;
+}
+.Round div {
+    text-align: center;
+}
+.Round section {
+    text-align: center;
+    display: flex;
+    gap: 80px;
+}
+.Round section button:nth-child(1) {
+    background-color: rgb(0, 255, 21);
+    height: 50px;
+    font-size: 20px;
+    color: azure; 
+    border-radius: 30px;
+    text-align: center;             
+    display: inline-block; 
+}
+.Round section button:nth-child(2) {
+    background-color: rgb(255, 0, 34);
+    height: 30px;
+    text-align: center;
+    justify-content: center;  
+    color: azure; 
+    display: inline-block;
+    border-radius: 30px;
+}
+/* Flat_Ghost */
+.Flat_Ghost {
+    text-align: center;
+    margin: 0 auto;
+}
+.Flat_Ghost div {
+    text-align: center;
+}
+.Flat_Ghost section {
+    text-align: center;
+    display: flex;
+    gap: 80px;
+}
+.Flat_Ghost section button:nth-child(1) {
+    border: 2px solid #ff7e5f; 
+    height: 50px;
+    font-size: 20px;
+    color: azure; 
+    text-align: center;             
+    display: inline-block; 
+    background: fixed;
+}
+.Flat_Ghost section button:nth-child(2) {
+    background: fixed;
+    border: 2px solid #ff7e5f; 
+    height: 30px;
+    text-align: center;
+    justify-content: center;  
+    color: azure; 
+    display: inline-block;
+}
+/* Round_Ghost */
+.Round_Ghost {
+    text-align: center;
+    margin: 0 auto;
+}
+.Round_Ghost div {
+    text-align: center;
+}
+.Round_Ghost section {
+    text-align: center;
+    display: flex;
+    gap: 80px;
+}
+.Round_Ghost section button:nth-child(1) {
+    border: 2px solid #ffff5f; 
+    height: 50px;
+    font-size: 20px;
+    color: azure; 
+    text-align: center;             
+    display: inline-block; 
+    background: fixed;
+    display: inline-block;
+    border-radius: 30px;
+}
+.Round_Ghost section button:nth-child(2) {
+    background: fixed;
+    border: 2px solid #5fff6c; 
+    height: 30px;
+    text-align: center;
+    justify-content: center;  
+    color: azure; 
+    display: inline-block;
+    border-radius: 30px;
+}

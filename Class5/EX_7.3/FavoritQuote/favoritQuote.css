@@ -1,0 +1,20 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.body blockquote{
+    border: 2px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(233, 5, 5, 0.2);
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    padding: 20px;
+}

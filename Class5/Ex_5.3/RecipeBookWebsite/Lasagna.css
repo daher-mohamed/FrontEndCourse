@@ -1,0 +1,16 @@
+
+.recipe-details {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+        
+.recipe-details img {
+    width: 20%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

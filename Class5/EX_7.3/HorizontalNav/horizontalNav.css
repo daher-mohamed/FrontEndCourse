@@ -1,0 +1,22 @@
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.body nav{
+    background-color: #333;
+    padding: 10px;
+}
+.body nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.body nav ul li{
+    margin: 0 15px;
+}
+.body nav ul li a{
+    color: white;
+    display: block;
+}

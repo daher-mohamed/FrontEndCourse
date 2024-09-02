@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+div {
+    position: absolute;               
+    border: 2px solid black; 
+    background-color: #f0f0f0;
+    font-size: 20px; 
+}
+.div_one{
+    width: 180px;           
+    height: 150px;  
+           
+    
+}
+.div_two{
+    top: 90px;
+    left: 80px;
+    width: 200px;           
+    height: 170px;  
+}
+.div_three{
+    top: 210px;
+    width: 430px;           
+    height: 130px; 
+}
+.div_four{
+    left: 350px;
+    width: 70px;           
+    height: 480px; 
+}
