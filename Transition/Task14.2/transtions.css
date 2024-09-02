@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* p{
+    padding: 20px 20px;
+} */
+.container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 30% 30%;
+    background-color: rgb(255, 255, 255);
+}
+.transtionY{
+    margin: 30px 30px;
+    width: 110px;
+    height: 60px;
+    text-align: center;
+    position: relative;;
+}
+.before{
+    width: 110px;
+    height: 60px;
+    position: absolute;
+    border: 2px solid black;
+    padding: 20px 20px;
+}
+.after{
+    background-color: rgb(12, 209, 235);
+    visibility: hidden;
+    width: 110px;
+    height: 0px;
+    transition: all 0.8s ease-in-out;
+    position: absolute;
+}
+.transtionY:hover{
+    .after{
+        visibility: visible;
+        height: 60px;
+    }
+
+}

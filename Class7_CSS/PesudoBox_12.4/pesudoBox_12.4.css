@@ -1,0 +1,62 @@
+    /* Reset margin and padding for better results */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0; 
+}
+
+.cool-border {
+    position: relative;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    background: #0c0c0c; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+.cool-border p{
+    margin-top:70px;
+}
+.cool-border:hover{
+    color: #f0f0f0;
+}
+.cool-border::before,
+.cool-border::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: red; 
+    transition: opacity 0.3s ease; 
+    opacity: 0; 
+    z-index: 1; 
+}
+
+.cool-border::before {
+    top: 50px;
+    left: 30px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+.cool-border::before {
+    top: 50px;
+    right: 30px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.cool-border::after {
+    bottom: 50px;
+    right: 30px;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+.cool-border:hover::before,
+.cool-border:hover::after {
+    opacity: 0.5; 
+}
+
+

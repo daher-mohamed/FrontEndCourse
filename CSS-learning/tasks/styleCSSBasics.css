@@ -1,0 +1,23 @@
+.header{
+    width: 100%;
+    background-color: blueviolet;
+    align-items: center;
+}
+.header h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    padding-left: 20px;
+}
+section p{
+    color: rgb(29, 7, 115);
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8d8d8d;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ a {
+    color: #000000;
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+    }
+}

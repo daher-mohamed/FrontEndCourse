@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.responsive_play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    flex-direction: column;
+    height: 100vh;
+    top: 0;
+    color: aliceblue;
+}
+
+h1{
+    font-size: calc(4vw + 4vh);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: calc(2vw + 2vh);
+}
+@media  screen and (max-width:600px) {
+    .responsive_play{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        font-size: 15px;
+        height: 30%;
+        color: brown;
+    }
+}
+

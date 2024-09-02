@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(141, 141, 141);
+    align-items: center;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 100px 50px;
+}
+.card-sporty{
+    margin: 10% 10%;
+}
+.card{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 30px 90px;
+    height: 150px;
+}
+.card h2{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color:red
+}
+.card p {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.card a{
+    text-decoration: none;
+    background-color: red;
+    margin-left: 20px;
+    padding: 10px 10px;
+    color: white;
+}
+.card-sporty{
+    background:#fff url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6b66a3b8-8e2d-4c2f-a121-50fae29ee998/AIR+ZOOM+G.T.+CUT+ACADEMY.png") no-repeat center right;
+    background-size: 200px;
+    background-position: right;
+
+}

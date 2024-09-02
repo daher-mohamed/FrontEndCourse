@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    margin: 40px 50px;
+}
+.show-text{
+    visibility: hidden;
+    background-color: yellow;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: small;
+    color: brown;
+    position: absolute;
+}
+.tooltip-show:hover{
+    .show-text{
+        left:60px;
+        top:30px;
+        visibility:visible;
+    }
+}

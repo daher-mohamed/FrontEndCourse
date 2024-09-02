@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    flex-direction: column;
+}
+.container{
+    width: 400px;
+}
+.container_1 p{
+    font-size: 2em;
+}
+.container_2 p{
+    font-size: 2rem;
+}
+.container_3 h1{
+    font-size: 4vw;
+}

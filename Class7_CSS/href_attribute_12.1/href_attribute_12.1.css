@@ -1,0 +1,8 @@
+a:hover{
+    background-color: #06b300; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+a:visited {
+    color: #0000ff;
+  }
