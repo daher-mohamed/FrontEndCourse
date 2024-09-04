@@ -1,0 +1,38 @@
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+   position: relative;
+   border: 5px solid blue;
+   border-radius: 10px;
+   padding: 10px 10px;
+   height: 40px;
+   width: 180px;;
+   text-align: center;
+   
+}
+.box::before{
+    content:'';
+    border: 5px solid rgb(9, 181, 255);
+    position: absolute;
+    width:105.5%;
+    height: 110%;
+    border-radius: 10px;
+    left:-10px;
+    top:-7px;
+}
+.box::after{
+    content:'';
+    border: 5px solid black;
+    position:absolute;
+    width:109.5%;
+    height: 121%;
+    border: 5px solid rgba(9, 181, 255, 0.56);
+    left:-14px;
+    border-radius: 10px;
+    top:-10px;
+}

@@ -1,0 +1,57 @@
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width:140vw;
+    height: 800px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 70px 20%;
+}
+.card{
+    width:220px;
+    height: 170px;
+}
+.card h4{
+    margin: 30% 20%;
+    font-size: 15px;
+}
+.gradient-border{
+   border: 5px solid hsl(281, 95%, 31%); 
+}
+.animated-border{
+    border: 3px dashed hsl(315, 95%, 31%);
+    animation: rotate 2s infinite linear; 
+}
+@keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+.card-shape-border{
+    background-color: palevioletred;
+    width:200px;
+    height: 130px;
+    transform: rotate(30deg);
+}
+.marching-ants-border{
+    border: 5px solid black;
+    border-style: border solid solid;
+    animation: marchingAnts 2s infinite alternate;
+}
+
+@keyframes marchingAnts {
+    0% {
+        border-color: black;
+    }
+    100% {
+        border: 8px solid black;
+    }
+}

@@ -1,0 +1,72 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.solar-system{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sun {
+    height: 300px;
+    width: 300px;
+    background-color: hsl(50, 100%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    animation: rotate 5s linear infinite;
+  }
+  
+  .sun::after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(110, 110, 110);
+    top: 0;
+    left: calc(50% - 15px);
+    border-radius: 50%;
+    content: "";
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.planet-mercury{
+    height: 310px;
+    width: 500px;
+    position: absolute;
+    border: 5px dashed hsl(0, 0%, 100%);
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+
+}
+.planet-venus{
+    height: 450px;
+    width: 600px;
+    position: absolute;
+    border: 5px dashed hsl(40, 100%, 50%);
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+}
+
+.planet-venus{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(0, 76%, 40%);
+    top: 0;
+    left: calc(50% - 25px);
+    border-radius: 50%;
+    content: "";
+}

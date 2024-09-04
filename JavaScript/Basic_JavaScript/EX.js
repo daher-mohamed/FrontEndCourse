@@ -1,0 +1,1 @@
+console.log("hellow world");//this is my first code in java script in this course
