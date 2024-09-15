@@ -120,6 +120,8 @@ function caml(str){
     }
     return ans;
 }
+console.log("ex5.4");
+
 function toWeirdCase(str){
     let ans = "";
     for(let i = 0; i < str.length; i++){
@@ -127,6 +129,51 @@ function toWeirdCase(str){
     }
     return ans;
 }
+
+console.log("EX5.5");
+function AbbreviateTowWords(words){
+    let ans = "";
+    let array = words.split(" ");
+    ans = array[0][0].toUpperCase() + "." + array[1][0].toUpperCase();
+    return ans;
+    
+}
+console.log(AbbreviateTowWords("Patrick Feeney"));
+
+console.log("EX5.6");   
+function Mask(word){
+    let ans = "";
+    let i = 0;
+    if(word.length > 4){
+        for(; i < word.length - 4; i++){
+            ans += "#";
+        }
+    }
+    while(i < word.length){
+        ans += word[i];
+        i++;
+    }
+    return ans;
+}
+
+console.log("EX5.7");
+function ShortWord(words){
+    let arr = words.split(" ");
+    let ans = words.length;
+    arr.map((str) => ans = ans > str.length ? str.length :ans);
+    return ans;
+}
+
+console.log("EX5.8");
+
+function ShortWord(words){
+    let arr = words.split(" ");
+    let ans = 0;
+    arr.map((str) => ans = ans < str.length ? str.length :ans);
+    return ans;
+}
+
+
 
 
 
