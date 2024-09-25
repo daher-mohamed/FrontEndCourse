@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Table Manipulation</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    table {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-collapse: collapse;
+      margin-top: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    td {
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin: 10px;
+      border: none;
+      background-color: #007BFF;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    button:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+
+<body>
+  <button onclick="toggleColumn(0)">Toggle First Column</button>
+  <button onclick="toggleColumn(1)">Toggle Second Column</button>
+  <button onclick="toggleColumn(2)">Toggle Third Column</button>
+  <button onclick="resetTable()">Reset</button>
+  <table id="dataTable" border="1">
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <td>Data 3</td>
+    </tr>
+    <tr>
+      <td>Data 4</td>
+      <td>Data 5</td>
+      <td>Data 6</td>
+    </tr>
+    <tr>
+      <td>Data 7</td>
+      <td>Data 8</td>
+      <td>Data 9</td>
+    </tr>
+  </table>
+</body>
+<script src="EX.js"></script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Form</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #dynamicForm {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 15px;
+      cursor: pointer;
+      margin: 5px 0;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    input {
+      display: block;
+      width: 100px;
+      padding: 10px;
+      margin: 10px auto;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="dynamicForm">
+    <button onclick="addField()">Add Field</button>
+    <button type="button" onclick="submitForm()">Submit</button>
+  </div>
+</body>
+<script src="EX.js"></script>
+</html>
