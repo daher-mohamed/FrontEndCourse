@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      padding: 20px;
+    }
+
+    .context-menu {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      border: 1px solid #d4d4d4;
+      z-index: 1000;
+      width: 150px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .context-menu-item {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .context-menu-item:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+  <title>Custom Context Menu</title>
+</head>
+
+<body>
+  <h1>Right Click for Custom Context Menu</h1>
+  <div class="context-menu" id="contextMenu">
+    <div class="context-menu-item" id="viewDetails">View Details</div>
+    <div class="context-menu-item" id="copyText">Copy Text</div>
+  </div>
+</body>
+<script src="EX.js"></script>
+</html>
