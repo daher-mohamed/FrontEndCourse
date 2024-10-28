@@ -33,8 +33,28 @@ restartTheGame.addEventListener('click', () => {
     inventoryItem = null;
   });
 
-function handleTileClick(tileDiv) {
-    
+  function handleTileClick(tileDiv) {
+    const tileType = tileDiv.dataset.type; 
+    if (!selectedItem || !tileType) return; 
+
+    if (buttonsArray[selectedItem] === tileType) {
+        inventoryItem = tileType;
+        tileDiv.classList.remove(tileType);
+
+        const inventorySlot = document.getElementById('inventory'); 
+        inventorySlot.className = `inventory ${inventoryItem}`;
+        
+        console.log(`Collected ${tileType} into inventory.`);
+    } else if (inventoryItem) {
+        tileDiv.classList.add(inventoryItem);
+        inventoryItem = null; 
+        
+        const inventorySlot = document.getElementById('inventory');
+        inventorySlot.className = 'inventory';
+        
+        console.log(`Placed ${tileType} back into the world.`);
+    }
 }
+
   
 initWorld();
